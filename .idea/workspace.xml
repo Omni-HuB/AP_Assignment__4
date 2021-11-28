@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f2b7c5e9-ce87-40f8-bb60-2ea6a58c876b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library/__Run_Library__.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/__Run_Library__.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment__4/Library/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment__4/Library/__Run_Library__.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/__Run_Library__.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question_1/__Run_Library__.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +66,7 @@
       <module name="Assignment__4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Library.*" />
+          <option name="PATTERN" value="Question_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +75,24 @@
       </method>
     </configuration>
     <configuration name="__Run_Library__" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Library.__Run_Library__" />
+      <option name="MAIN_CLASS_NAME" value="Question_1.__Run_Library__" />
       <module name="Assignment__4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Library.*" />
+          <option name="PATTERN" value="Question_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__Run_Pixel_Matrix__" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_2.__Run_Pixel_Matrix__" />
+      <module name="Assignment__4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Question_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +103,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.__Run_Library__" />
+        <item itemvalue="Application.__Run_Pixel_Matrix__" />
         <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
@@ -102,6 +118,17 @@
       <updated>1637871129339</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

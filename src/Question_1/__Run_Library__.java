@@ -1,4 +1,4 @@
-package Library;
+package Question_1;
 
 
 /*                                       _________ PROBLEM STATEMENT _________
@@ -55,16 +55,16 @@ public class __Run_Library__ {
         switch(choice){
             case 1:
             {
-                Book.enterManually();
-                Book.main(args);
-                Book.searchBook();
+                Book2.enterManually();
+                Book2.main(args);
+                Book2.searchBook();
                 return;
             }
             case 2:
             {
-                Book.inputsFromGivenData();
-                Book.main(args);
-                Book.searchBook();
+                Book2.inputsFromGivenData();
+                Book2.main(args);
+                Book2.searchBook();
                 return;
 
             }
