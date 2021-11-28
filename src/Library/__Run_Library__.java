@@ -16,6 +16,7 @@ and identify the appropriate slot for any book you pick from the floor for placi
 plan.
 */
 
+import java.io.FileNotFoundException;
 import java.util.*;
 public class __Run_Library__ {
 
@@ -30,7 +31,7 @@ public class __Run_Library__ {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         Scanner sc = new Scanner(System.in);
 
@@ -43,13 +44,36 @@ public class __Run_Library__ {
         slots = N / K;
         System.out.println("The Number of Slots are :: " + slots);
 
+        System.out.println("""
+            1.Enter book Details Manually
+            2.Input book Details from Bill(.txt file)
+            3.Exit
+            """);
+        System.out.print( "Enter your choice : ");
+        int choice=sc.nextInt();
 
-        Book.enterManually();
-        Book.main(args);
+        switch(choice){
+            case 1:
+            {
+                Book.enterManually();
+                Book.main(args);
+                Book.searchBook();
+                return;
+            }
+            case 2:
+            {
+                Book.inputsFromGivenData();
+                Book.main(args);
+                Book.searchBook();
+                return;
+
+            }
+            case 3:
+                break;
+        }
+
 
     }
-
-
 
 }
 
